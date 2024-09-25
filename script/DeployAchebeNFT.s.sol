@@ -4,7 +4,7 @@ pragma solidity ^0.8.24;
 import {Script} from "forge-std/Script.sol";
 import {AchebeNFT} from "../src/AchebeNFT.sol";
 
-contract DeployChainstore is Script {
+contract DeployAchebeNFT is Script {
     function run() external returns (AchebeNFT) {
         address deployer = vm.envAddress("DEPLOYER_ADDRESS");
 
